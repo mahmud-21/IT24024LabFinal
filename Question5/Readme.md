@@ -1,9 +1,45 @@
-# Question 5 : Object Interaction & Array of Objects
+# 📚 Book Management Program in Java
 
-## Book.java
+This Java program demonstrates the use of **classes**, **objects**, and **arrays of objects**.  
+It stores book information, displays books based on a condition, and calculates the **average price** of all books.
 
-### Code:
-```
+---
+
+## 📌 Objectives
+
+- Create a `Book` class with private data members
+- Store multiple `Book` objects in an array
+- Display books with price greater than 500
+- Calculate and display the average book price
+- Practice basic **Object-Oriented Programming (OOP)** concepts
+
+---
+
+## 🛠️ Technologies Used
+
+- Java (JDK 8 or higher)
+- Object-Oriented Programming (OOP)
+
+---
+
+## 📂 Project Structure
+
+BookProgram/
+│
+├── Book.java
+└── README.md
+
+---
+
+## ▶️ How to Run the Program
+
+### 1️⃣ Compile the program
+
+javac Book.java
+### 2️⃣ Run the program
+java Book
+## 🧾 Source Code
+~~~
 public class Book {
     private int bookId;
     private String title;
@@ -47,4 +83,22 @@ public class Book {
         System.out.println("\nAverage price: " + average);
     }
 }
-```
+~~~
+## 🧑‍💻 Sample Output
+~~~
+Books with price greater than 500:
+ID: 102, Title: Data Structures, Price: 650.0
+ID: 103, Title: Algorithms, Price: 800.0
+ID: 104, Title: Web Development, Price: 520.0
+
+Average price: 562.0
+~~~
+## 📘 Concepts Used
+~~~
+Class and Object
+Constructor
+Array of Objects
+Encapsulation
+Looping (for-each)
+Conditional Statements
+~~~
